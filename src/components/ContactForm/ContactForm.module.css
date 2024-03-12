@@ -1,0 +1,46 @@
+form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding: 20px;
+  width: 390px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+input {
+  display: block;
+  margin-bottom: 40px;
+  width: 350px;
+  height: 40px;
+  padding: 8px 20px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+label:nth-child(4) {
+  margin-top: 40px;
+}
+
+.spanName {
+  position: absolute;
+  top: 88px;
+  color: red;
+}
+
+.spanNumber {
+  position: absolute;
+  top: 192px;
+  color: red;
+}
+
+.submit {
+  align-self: center;
+  cursor: pointer;
+  margin-top: 40px;
+  padding: 8px 16px;
+  border-radius: 8px;
+}

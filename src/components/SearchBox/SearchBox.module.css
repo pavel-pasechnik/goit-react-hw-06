@@ -1,0 +1,17 @@
+.find {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 390px;
+}
+
+.searchBar {
+  width: 390px;
+}
+
+.search {
+  position: absolute;
+  top: 36px;
+  right: 12px;
+}
