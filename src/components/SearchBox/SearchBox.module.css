@@ -1,12 +1,14 @@
 .find {
   position: relative;
+
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+
   width: 390px;
+  margin-top: 20px;
 }
 
-.searchBar {
+.input {
   width: 390px;
 }
 

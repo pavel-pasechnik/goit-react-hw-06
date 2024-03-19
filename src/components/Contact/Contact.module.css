@@ -7,21 +7,21 @@
 .name {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
   column-gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .phone {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
   column-gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .button {
+  cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-  cursor: pointer;
 }

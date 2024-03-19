@@ -35,12 +35,12 @@ export default function ContactForm() {
         <Form>
           <label htmlFor={nameId}>Name</label>
           <Field type='text' name='name' id={nameId}></Field>
-          <span className={css.spanName}>
+          <span className={css.name}>
             <ErrorMessage name='name' as='span' />
           </span>
           <label htmlFor={numberId}>Number</label>
           <Field type='text' name='number' id={numberId}></Field>
-          <span className={css.spanNumber}>
+          <span className={css.number}>
             <ErrorMessage name='number' as='span' />
           </span>
           <button className={css.submit} type='submit'>
